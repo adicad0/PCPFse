@@ -12,7 +12,7 @@ class two extends Thread{
         }
     }
 }
-public class main{
+public class mainMultiThread{
     public static void main(String[] args) {
         one th1= new one();
         two th2= new two();
